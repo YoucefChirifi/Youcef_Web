@@ -80,3 +80,40 @@ h1{
     position: relative;
     bottom: 90px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .circle {
+        height: 200px;
+        width: 200px;
+    }
+
+    .youcef {
+        height: 200px;
+        width: 200px;
+    }
+
+    .textt {
+        width: 90%;
+        font-size: 16px;
+        text-align: center;
+        position: static;
+    }
+
+    .email {
+        font-size:10px;
+        width: 80%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .submit {
+        width: 80%;
+        height: 40px;
+        font-size: 16px;
+    }
+}
